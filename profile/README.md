@@ -1,6 +1,6 @@
 # Vlotra
 
-We build [vlotpipe](https://github.com/Vlotra/vlotpipe) — a linter for CI pipelines, GitHub Actions and Azure Pipelines. It catches injection, credential, and supply-chain mistakes in your pipelines before they run, and is also a pipeline-aware YAML style linter (the half generic `yamllint` can't really do).
+We build [vlotpipe](https://github.com/Vlotra/vlotpipe) — a linter for CI pipelines, GitHub Actions and Azure Pipelines. It catches injection, credential, and supply-chain mistakes in your pipelines before they run, and is also a pipeline-aware YAML style linter — the half generic `yamllint` can't really do, since it has no notion of GitHub Actions or Azure Pipelines schema.
 
 - **[vlotpipe](https://github.com/Vlotra/vlotpipe)** — the linter. `go install github.com/vlotra/vlotpipe/cmd/vlotpipe@latest`
 - **[Try it online](https://vlotpipe.vlotra.com/playground/)** — no install, runs entirely in your browser via WebAssembly.
